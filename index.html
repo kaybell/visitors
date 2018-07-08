@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Visitors Demo</title>
+
+    <!-- Bootstrap Favicons -->
+    <link rel="apple-touch-icon" href="docs/4.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="docs/4.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="docs/4.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="docs/4.1/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="docs/4.1/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+    <link rel="icon" href="favicon.ico">
+    <meta name="msapplication-config" content="docs/4.1/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+  </head>
+
+  <script> 
+    $(function(){
+      $("#sNav").load("YourWebsiteURL/includes/siteNav.html"); 
+    });
+  </script> 
+
+  <body>
+    <!-- Site Navigation -->
+    <div id="sNav"></div>
+
+    <div class="container">
+        <section id="header">
+            <p class="display-4">Visitor Tracking</p>
+            <h1>ASP.NET Web Page and Sharepoint CSOM</h1>
+        </section>
+
+        <section id="bodyContent">
+            <p class="lead">This demo uses an ASP.NET web page to capture form information (a visitors visit) and writes the information to a SharePoint Online custom list.</P
+            <p>I received a request to create a web form that would capture a visitors visit to each companies table,
+                at an upcoming company event.  The user needed the data saved to a location that would be
+                easy for them to access and have the ability to export the data into an Excel file.
+            </p>
+            <p>Since our users are fluent with SharePoint Online (SPO), this was a logical choice for the location
+                to save the form results to.  A custom SharePoint list would work well for saving the form data to.  
+            </p>
+            <p>Since our intranet web server is running IIS on a Windows Server, I decided I would create an ASP.NET
+                web page that uses the C# language and the <a href="https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code" target="_blank">SharePoint Client Side Object Model (CSOM)</a>.  
+            </p>
+            <p>The web pages in this respository are built with Bootstrap 4.  Since our web form is going to be accessed
+                mainly from smartphones, I needed the web page and form to be mobile friendly.  I didn't modify the Bootstrap 
+                source files.  I created a custom.css file that contains a few styles that override a few of the 
+                Bootstrap styles.  You can easily comment out the line that loads the custom.css file, so you
+                are using pure Bootstrap styles.  
+            </p>
+            <p>Links of Interest</p>
+            <ul>
+                <li><a href="https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code" target="_blank">SharePoint CSOM</a></li>
+            </ul>
+
+        </section>
+    </div>
+
+     <!-- Photo by jean wimmerlin on Unsplash -->
+     <script> 
+		$(function(){
+		  $("#sFooter").load("YouWebsiteURL/includes/siteFooter.html"); 
+		});
+    </script> 
+
+    <div id="sFooter"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
