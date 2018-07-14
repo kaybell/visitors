@@ -4,7 +4,8 @@ This demo uses an ASP.NET web page to capture form information (a visitors visit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License. 
 
-This work is free to use for a personal, internal, or non-profit project under the Creative Commons Attribution-NonCommercial 3.0 License - http://creativecommons.org/licenses/by-nc/3.0/
+This work is free to use for a personal, internal, or non-profit project under the Creative 
+Commons Attribution-NonCommercial 3.0 License - http://creativecommons.org/licenses/by-nc/3.0/
 
 All samples are provided as-is with no warranty.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
